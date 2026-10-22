@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-bar{
+    display: flex;
+    align-items: center; /* Centraliza o texto e a imagem verticalmente */
+    gap: 20px; /* Adiciona espaçamento horizontal entre o ícone e o título */
+    background-color: rgb(74, 106, 209);
+    color: rgb(189, 54, 54);
+    padding: 10px 30px; /* Reduzido o padding superior/inferior para não estourar a altura */
+    min-height: 100px;
+}
+
+.Icon-Image{
+    width: 60px; /* Ajustado para caber proporcionalmente no cabeçalho */
+    height: auto;
+    display: block;
+}
